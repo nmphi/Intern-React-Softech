@@ -1,0 +1,32 @@
+.sidebar {
+  width: 220px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  min-height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  display: block;
+  padding: 10px 16px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.link:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}

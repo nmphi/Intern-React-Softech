@@ -1,0 +1,27 @@
+.card {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.title {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.text {
+  margin-top: 8px;
+  color: #555;
+  font-size: 0.95rem;
+}

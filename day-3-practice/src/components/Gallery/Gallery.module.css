@@ -1,0 +1,11 @@
+.gallery {
+  padding: 32px 20px;
+  background-color: #f9f9f9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
