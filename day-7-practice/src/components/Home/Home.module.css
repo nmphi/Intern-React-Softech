@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f2f5;
+}
+
+.hero {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.counter {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #1d4ed8;
+}
